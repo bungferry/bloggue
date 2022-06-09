@@ -3,35 +3,4 @@ layout: default
 title:  Welcome
 ---
 
-# {{ page.title }}
-
-
-_Add your text here_
-
-
-What's Markdown (`.md`)?
-
-Markdown is markup that lets you write hypertext (HTML) documents
-in easy-to-read and easy-to-write plain text.
-No angle brackets `<></>` required for
-paragraphs, lists, blockquotes, tables, etc.
-
-
-This is a paragraph (in Markdown). Some more
-text here.
-
-This is another paragraph.
-
-This is a list:
-
-- Orange
-- Apple
-- Blueberry
-
-
-
-Just getting started with Markdown?
-See the [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
-
-
-[quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md
+<a class="object" href="https://codepen.io/damianogui/full/JwbdxG">Table 5C blue Italy, Bassano del Grappa 2018</b></a><a class="object" href="#">Table and bench N3</b> Italy, Bassano del Grappa 2018</a><a class="interior" href="#">Casa GVB Italy, Budrio 2018</b></a><a class="object" href="#">Table C1 yellow Italy, Bologna 2018</a><a class="object" href="#">Lamp N1 Italy, Bologna 2018</a><a class="object" href="#">Servo muto Belgium, Antwerp 2018</a><a class="publication" href="#">Casa ZVL Italy, Bologna 2017</a><a class="object" href="#">Table N2 Italy, Bologna 2017</a><a class="interior" href="#">Casa / Atelier GVM Italy, Bologna 2017</a><a class="publication" href="#">Casa RAT Italy, Bologna 2017</a><a class="object" href="#">Table 5C blue Italy, Bassano del Grappa 2018</a><a class="object" href="#">Table and bench N3 Italy, Bassano del Grappa 2018</a><a class="interior" href="#">Casa GVB Italy, Budrio 2018</a><a class="object" href="#">Table C1 yellow Italy, Bologna 2018</a><a class="publication" href="#">Lamp N1 Italy, Bologna 2018</a><a class="object" href="#">Servo muto Belgium, Antwerp 2018</a><a class="interior" href="#">Casa ZVL Italy, Bologna 2017</a><a class="object" href="#">Table N2</b> Italy, Bologna 2017</a><a class="interior" href="#">Casa / Atelier GVM Italy, Bologna 2017</a><a class="interior" href="#">Casa RAT Italy, Bologna 2017</a>
