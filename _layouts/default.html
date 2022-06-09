@@ -7,24 +7,29 @@
 </head>
 <body>
 
+<section class="page">
+    <div class="title">
+      <h1>{{ site.title }}</h1>
+      <h2>{{ site.subtitle }}</h2>
+      </div>
 
-<div id="header">
-  <span class='big'>{{ site.title }}</span>
-  <span class='small'>{{ site.subtitle }}</span>
+    <div class="about">
+      <a class="about" href="{{ 'about.html' | relative_url }}">/ about</a>
+      </div>
+    
+    <div class="projects">
+      {{ content }}
+      </ul>
+      </div>
+    
+    
+    <div id="footer">
+    <li class="footer-left ">© RCAA 2019</li>
+    <li class="footer-right"><a href="" target="_blank ">mail[at]rcaa[dot]it</a></li>
+    </ul>
+  </div>
 </div>
-
-<div id="nav">
-  <a href="{{ 'index.html' | relative_url }}">Welcome</a> •
-  <a href="{{ 'two.html'   | relative_url }}">Page Two</a> •
-  <a href="{{ 'three.html' | relative_url }}">Page Three</a> •
-  <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a> •
-  <a href="https://github.com/henrythemes/jekyll-starter-theme">About</a>
-</div>
-
-<div id="content">
-  {{ content }}
-</div>
+</section>
 
 </body>
 </html>
-
