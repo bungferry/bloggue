@@ -523,3 +523,8 @@ a.about:hover{
   font-size: .7em;
   color: #A0A0A0;  
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
