@@ -1,43 +1,154 @@
-/*
- * css styles go here
- */
-
-
-body {
-  font-family: Helvetica,Arial,sans-serif;
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-a, a:visited {
-  color: navy;
-  text-decoration: none;
+::selection {
+  color: #fff;
+  background: #000;
 }
 
-a:hover {
-  text-decoration: underline;
+.page{
+  margin-left:17%;
+  margin-right:17%;
+  min-width: 300px;
 }
 
-
-
-
-#header {
-  padding: 4px;
+@media only screen and (max-width: 600px) {
+  .page{
+    width: 300px;
+    margin:auto;
+  }
 }
 
-#header .big {
-  font-size:   140%;
+h1{ 
+  color: transparent;
+  font-size: 6.5em;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin:0px;
+}
+
+h2{
+	font-size: 0.8em;
+  margin: -10px 4px;
   font-weight: bold;
 }
 
-#header .small {
-  font-size:    90%;
-  color:        grey;
-  padding-left: 15px;
+
+.title {
+
+  margin-top: 10%;
 }
 
-#nav {
-  padding: 6px;
+.projects{
+
+  margin-top: 4em;
+  font-size: .7em;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 20px;
+  
+}
+
+ .projects a{
+  margin-right: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.object {
+  color: #000;
+  font-weight: bold;
+  
+}
+
+.interior {
+  color: #000;
+}
+
+.publication {
+  color: #AEAEAE;
 }
 
 
+a:hover{
+  background: #000;
+  color: #fff;
+}
 
+.projects a::before{
+  content: "/ ";
+}
 
+li {
+	margin:3px;
+
+}
+
+#footer {
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#footer  {
+
+}
+
+#footer li {
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 200%;
+}
+
+.footer-right {
+  text-align: right;
+  display: inline;
+  position: absolute;
+  
+}
+
+.footer-left {
+  right: 0;
+  text-align: left;
+  display: inline;
+  position: absolute;
+}
+
+.about{
+  right:0;
+  margin-top: -15px;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+.about a{
+  font-weight: bold;
+  font-size: 1em;
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+a.about:hover{
+  background: #000;
+  color: #fff;
+}
+
+.active li.current {
+  display:block;
+}
+
+.pace .pace-progress {
+  background: #000;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 10px;
+}
