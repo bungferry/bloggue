@@ -517,3 +517,9 @@ a.about:hover{
     font-size:0;
     line-height:0;
 }
+
+.tags {
+  display: inline-block;
+  font-size: .7em;
+  color: #A0A0A0;  
+}
